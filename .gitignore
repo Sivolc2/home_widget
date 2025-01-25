@@ -1,6 +1,26 @@
 .DS_Store
 .dart_tool/
 
+// ... existing code ...
+
+# Additional iOS specific
+Runner.xcodeproj/xcshareddata/
+Runner.xcodeproj/project.xcworkspace/
+Runner.xcworkspace/xcshareddata/
+Runner.xcworkspace/xcuserdata/
+**/Runner/GoogleService-Info.plist
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment files
+*.env
+*.env.local
+
+# Test coverage
+RunnerTests/coverage/
+
 .packages
 .pub/
 
